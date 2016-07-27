@@ -83,7 +83,7 @@ geneticdat$ANCevent=ifelse(geneticdat$anc_event==1,1,ifelse(geneticdat$anc_event
 geneticdat$AGE=ifelse(geneticdat$age_reg<65,0,1)
 geneticdatgenoAll= merge(genoAll, geneticdat, by=0)
 ### merge by row names (by=0 or by="row.names")
-###Since we can not list all 575575 separately in the formula we read in each SNP from geno file 
+###Since we can not list all 537848 separately in the formula we read in each SNP from geno file 
 ###with a function
 
 ##Had to run these commands first before the function worked
